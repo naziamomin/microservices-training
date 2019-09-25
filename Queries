@@ -7,4 +7,4 @@ values('admin','ROLE_ADMIN');
 COMMIT;
 
 SELECT * FROM boamumbai.users;
-SELECT * FROM boamumbai.users;
+SELECT * FROM boamumbai.user_roles;
