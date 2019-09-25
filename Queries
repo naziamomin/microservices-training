@@ -1,0 +1,10 @@
+INSERT INTO boamumbai.users(username,password,enabled)
+values('admin','$2a$10$dwdXbBtFtVK2vsEYLMlWPevj//TgDZdKvrsMBV3vtKotjLzQNGEDO',true);
+
+INSERT INTO boamumbai.user_roles(username,role)
+values('admin','ROLE_ADMIN');
+
+COMMIT;
+
+SELECT * FROM boamumbai.users;
+SELECT * FROM boamumbai.users;
